@@ -1,0 +1,12 @@
+@import '../../css/base';
+
+.mod-purchase {
+	background: url(../img/tickets.png) no-repeat center top $darkgray;
+
+	.box-content {
+		padding-top: 180px;
+	}
+	.desc {
+		@include mb;
+	}
+}

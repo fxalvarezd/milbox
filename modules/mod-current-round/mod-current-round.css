@@ -1,0 +1,13 @@
+/*#4DB6AC/#64DD17/#34ab00*/
+.mod-current-round {
+  background: url(../img/notes.png) no-repeat center top #252525;
+}
+.mod-current-round .main {
+  color: yellow;
+  padding: 100px 30px 50px 0;
+  text-align: right;
+}
+.mod-current-round .big {
+  font-size: 32px;
+  line-height: 36px;
+}

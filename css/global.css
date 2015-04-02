@@ -1,0 +1,147 @@
+/*#4DB6AC/#64DD17/#34ab00*/
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  background: #ffca28;
+  color: #fff;
+  cursor: default;
+  margin: 0;
+  min-width: 320px;
+  padding: 0;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  -ms-interpolation-mode: bicubic;
+}
+
+a {
+  -webkit-transition: color 200ms linear;
+  -moz-transition: color 200ms linear;
+  -o-transition: color 200ms linear;
+  transition: color 200ms linear;
+  color: #03a9f4;
+  text-decoration: none;
+}
+a:hover {
+  color: #01579b;
+  text-decoration: none;
+}
+
+/*Utility Classes*/
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.strong {
+  font-weight: bold;
+}
+
+.hide {
+  display: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+
+/*Global Classes*/
+.mb {
+  margin-bottom: 20px;
+}
+
+.button {
+  background-color: #03a9f4;
+  border-color: #039be5;
+}
+.button:hover {
+  background-color: #01579b;
+}
+
+.title {
+  font-size: 26px;
+  line-height: 48px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 36px;
+  margin: 0 0 20px 0;
+}
+
+.box {
+  text-align: center;
+}
+
+.box-title {
+  font-size: 26px;
+  line-height: 48px;
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.45) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.6)), color-stop(30%, rgba(0, 0, 0, 0.45)), color-stop(60%, rgba(0, 0, 0, 0.3)), color-stop(100%, rgba(255, 255, 255, 0)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.45) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.45) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(255, 255, 255, 0) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.45) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(255, 255, 255, 0) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.45) 30%, rgba(0, 0, 0, 0.3) 60%, rgba(255, 255, 255, 0) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+  font-weight: bold;
+}
+
+.box-cont {
+  background: #252525;
+  -webkit-box-shadow: 5px 5px 10px 0px #252525;
+  box-shadow: 5px 5px 10px 0px #252525;
+  height: 350px;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 640px) {
+  .box-cont {
+    margin: 0 20px 20px;
+  }
+}

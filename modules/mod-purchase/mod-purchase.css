@@ -1,0 +1,10 @@
+/*#4DB6AC/#64DD17/#34ab00*/
+.mod-purchase {
+  background: url(../img/tickets.png) no-repeat center top #252525;
+}
+.mod-purchase .box-content {
+  padding-top: 180px;
+}
+.mod-purchase .desc {
+  margin-bottom: 20px;
+}

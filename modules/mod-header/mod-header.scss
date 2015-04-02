@@ -1,0 +1,107 @@
+@import '../../css/base';
+
+.mod-header {
+	background: $darkgray;
+	padding: 40px 0;
+	position: relative;
+	z-index: 3;
+
+	/* Small */
+	@media only screen and (max-width: 640px) {
+		padding: 20px 0;
+	}
+	.logo {
+		display: block;
+		float: left;
+
+		/*Medium*/
+		@media only screen and (min-width: 641px) and (max-width: 1024px) {
+			padding-bottom: 20px;
+		}
+	}
+	.menu-trigger {
+		cursor: pointer;
+		display: none;
+		float: right;
+		height: 48px;
+		width: 48px;
+
+		/* Small */
+		@media only screen and (max-width: 640px) {
+			display: block;
+		}
+	}
+	#main-nav-check:checked + .nav {
+		max-height: 600px;
+	}
+	.nav {
+		@include transition(max-height 500ms ease-out);
+		float: right;
+
+		/* Small */
+		@media only screen and (max-width: 640px) {
+			max-height: 0px;
+			overflow: hidden;
+			width: 100%;
+		}
+		/*Medium*/
+		@media only screen and (min-width: 641px) and (max-width: 1024px) {
+			float: left;
+			width: 100%;
+		}
+	}
+		.nav-menu {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			/* Small */
+			@media only screen and (max-width: 640px) {
+				padding: 20px 0 0 0;
+			}
+		}
+			.nav-item {
+				float: left;
+				position: relative;
+
+				/* Small */
+				@media only screen and (max-width: 640px) {
+					float: none;
+					padding-bottom: 10px;
+				}
+			}
+			.nav-item:hover .nav-link {
+				border-color: transparent;
+				opacity: 1;
+			}
+			#home .home .nav-link,
+			#how .how .nav-link,
+			#results .results .nav-link {
+				border-color: #fff;
+				cursor: default;
+				opacity: 1;
+			}
+				.nav-link{
+					@include transition(all 0.2s linear);
+					border-bottom: 4px solid transparent;
+					color: #fff;
+					display: block;
+					font-size: 16px;
+					font-weight: bold;
+					letter-spacing: 2px;
+					line-height: 30px;
+					margin-left: 30px;
+					opacity: 0.6;
+					position: relative;
+					text-transform: uppercase;
+
+					/* Small */
+					@media only screen and (max-width: 640px) {
+						margin: 0;
+					}
+					/*Medium*/
+					@media only screen and (min-width: 641px) and (max-width: 1024px) {
+						margin: 0 30px 0 0;
+					}
+				}
+}
