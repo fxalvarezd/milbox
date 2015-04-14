@@ -1,16 +1,18 @@
 @import '../../css/base';
 
 .mod-results {
-	.page-title {
-		margin: 0;
+	.list-group-item {
+		line-height: $largeline;
+		overflow: hidden;
 	}
-	.pricing-table .price {
-		@include mediumfont;
+	.label {
+		color: #000;
+		display: block;
+		text-align: left;
 	}
-	.pricing-table {
-		.price,
-		.bullet-item {
-			text-align: left;
-		}
+	mark {
+		font-size: $large;
+		margin: 0 auto;
+		padding: 0 $pad;
 	}
 }
