@@ -18,7 +18,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 20px;
+  line-height: 24px;
   background: #ffca28;
   color: #fff;
   cursor: default;
@@ -100,13 +100,45 @@ a:hover {
   background-color: #01579b;
 }
 
+.page {
+  -webkit-box-shadow: 5px 5px 10px #252525 ;
+  -moz-box-shadow: 5px 5px 10px #252525 ;
+  -o-box-shadow: 5px 5px 10px #252525 ;
+  box-shadow: 5px 5px 10px #252525 ;
+  background: #fff;
+  color: #252525;
+  padding: 15px;
+}
+
 .title {
+  margin-bottom: 20px;
   font-size: 26px;
   line-height: 48px;
-  color: #fff;
   font-weight: bold;
-  line-height: 36px;
-  margin: 0 0 20px 0;
+}
+
+.box-cont {
+  margin-bottom: 20px;
+  -webkit-box-shadow: 5px 5px 10px #252525 ;
+  -moz-box-shadow: 5px 5px 10px #252525 ;
+  -o-box-shadow: 5px 5px 10px #252525 ;
+  box-shadow: 5px 5px 10px #252525 ;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background: #252525;
+  cursor: pointer;
+  height: 350px;
+}
+.box-cont:hover {
+  -webkit-box-shadow: 10px 10px 20px #252525 ;
+  -moz-box-shadow: 10px 10px 20px #252525 ;
+  -o-box-shadow: 10px 10px 20px #252525 ;
+  box-shadow: 10px 10px 20px #252525 ;
+  -ms-transform: translate(-3px, -3px);
+  -webkit-transform: translate(-3px, -3px);
+  transform: translate(-3px, -3px);
 }
 
 .box {
@@ -131,17 +163,4 @@ a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#99000000', endColorstr='#00ffffff',GradientType=0 );
   /* IE6-9 */
   font-weight: bold;
-}
-
-.box-cont {
-  background: #252525;
-  -webkit-box-shadow: 5px 5px 10px 0px #252525;
-  box-shadow: 5px 5px 10px 0px #252525;
-  height: 350px;
-  margin-bottom: 20px;
-}
-@media only screen and (max-width: 640px) {
-  .box-cont {
-    margin: 0 20px 20px;
-  }
 }

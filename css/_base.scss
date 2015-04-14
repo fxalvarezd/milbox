@@ -9,7 +9,7 @@ $small: 11px;
 $smallline: 13px;
 
 $medium: 16px;
-$mediumline: 20px;
+$mediumline: 24px;
 
 $large: 26px;
 $largeline: 48px;
@@ -82,6 +82,11 @@ $email: #c1c1c1;
 	-moz-transition: $animation;
 	-o-transition: $animation;
 	transition: $animation;
+}
+@mixin transform($x, $y) {
+	-ms-transform: translate($x, $y);
+	-webkit-transform: translate($x, $y);
+	transform: translate($x, $y);
 }
 @mixin boxshadow($top, $left, $blur, $color, $inset:"") {
 	-webkit-box-shadow: $top $left $blur $color #{$inset};
