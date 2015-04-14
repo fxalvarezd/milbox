@@ -83,7 +83,7 @@ $email: #c1c1c1;
 	-o-transition: $animation;
 	transition: $animation;
 }
-@mixin transform($x, $y) {
+@mixin translate($x, $y) {
 	-ms-transform: translate($x, $y);
 	-webkit-transform: translate($x, $y);
 	transform: translate($x, $y);

@@ -103,7 +103,7 @@ a {
 
 	&:hover {
 		@include boxshadow(10px, 10px, 20px, $darkgray);
-		@include transform(-3px, -3px);
+		@include translate(-3px, -3px);
 	}
 }
 	.box {
