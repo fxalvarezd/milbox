@@ -1,0 +1,12 @@
+/*#4DB6AC/#64DD17/#34ab00*/
+.mod-results .page-title {
+  margin: 0;
+}
+.mod-results .pricing-table .price {
+  font-size: 16px;
+  line-height: 24px;
+}
+.mod-results .pricing-table .price,
+.mod-results .pricing-table .bullet-item {
+  text-align: left;
+}

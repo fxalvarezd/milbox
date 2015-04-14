@@ -26,6 +26,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
+	font-size: inherit;
 }
 img {
 	display: block;
@@ -83,12 +84,13 @@ a {
 	}
 }
 .page {
+	@include mb;
 	@include boxshadow(5px, 5px, 10px, $darkgray);
 	background: #fff;
 	color: $darkgray;
 	padding: $pad;
 }
-.title {
+.page-title {
 	@include mb;
 	@include largefont;
 	font-weight: bold;

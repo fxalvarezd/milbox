@@ -1,0 +1,16 @@
+@import '../../css/base';
+
+.mod-results {
+	.page-title {
+		margin: 0;
+	}
+	.pricing-table .price {
+		@include mediumfont;
+	}
+	.pricing-table {
+		.price,
+		.bullet-item {
+			text-align: left;
+		}
+	}
+}

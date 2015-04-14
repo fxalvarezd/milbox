@@ -7,18 +7,16 @@
 ?>
 
 	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<?php include $path['ser'] . '/modules/mod-header/mod-header.html'; ?>
+				</div>
+			</div>
 
-		<?php include $path['ser'] . '/modules/mod-header/mod-header.html'; ?>
+			<?php include $path['ser'] . '/modules/mod-cuad/mod-cuad.html'; ?>
 
-		<?php include $path['ser'] . '/modules/mod-cuad/mod-cuad.html'; ?>
-
-		<?php include $path['ser'] . '/modules/mod-footer/mod-footer.html'; ?>
-
-		<script src="../js/vendor/jquery.js"></script>
-		<script src="../js/foundation.min.js"></script>
-		<script src="<?php echo $path['web']; ?>/utility/js_loader.php?page=<?php echo $page ?>"></script>
-		<script>
-			$(document).foundation();
-		</script>
+			<?php include $path['ser'] . '/modules/mod-footer/mod-footer.html'; ?>
+		</div>
 	</body>
 </html>

@@ -1,7 +1,7 @@
 <?php
 	include('../config.php');
-	$title = 'Project FX - How It Works';
-	$page = 'how';
+	$title = 'Project FX - Results';
+	$page = 'results';
 
 	include $path['ser'] . '/modules/mod-head/mod-head.html';
 ?>
@@ -10,7 +10,7 @@
 
 		<div class="row">
 			<div class="small-12 columns">
-				<?php include $path['ser'] . '/modules/mod-how-works/mod-how-works.html'; ?>
+				<?php include $path['ser'] . '/modules/mod-results/mod-results.html'; ?>
 			</div>
 		</div>
 
