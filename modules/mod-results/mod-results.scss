@@ -2,17 +2,19 @@
 
 .mod-results {
 	.list-group-item {
-		line-height: $largeline;
-		overflow: hidden;
+		height: auto;
 	}
-	.label {
-		color: #000;
-		display: block;
-		text-align: left;
+	.result-label {
+		line-height: $mediumline;
 	}
+		.glyphicon {
+			font-size: $small;
+			line-height: $mediumline;
+		}
 	mark {
-		font-size: $large;
-		margin: 0 auto;
+		@include largefont;
+		display: block;
 		padding: 0 $pad;
+		text-align: center;
 	}
 }

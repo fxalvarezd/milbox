@@ -1,3 +1,4 @@
+@import 'bootstrap';
 @import 'base';
 
 *,
@@ -103,7 +104,6 @@ a {
 	@include transition(all 0.2s ease);
 	background: $darkgray;
 	cursor: pointer;
-	height: 350px;
 
 	&:hover {
 		@include boxshadow(10px, 10px, 20px, $darkgray);
@@ -111,6 +111,7 @@ a {
 	}
 }
 	.box {
+		height: 350px;
 		text-align: center;
 	}
 		.box-title {

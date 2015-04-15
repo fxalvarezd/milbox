@@ -3,10 +3,14 @@
 .mod-previous-rounds {
 	background: url(../img/calendar.png) no-repeat center top $darkgray;
 
-	.box-content {
-		padding-top: 180px;
+	.box {
+		color: inherit;
+		display: block;
 	}
-	.desc {
-		padding: 0 $pad $pad;
-	}
+		.box-content {
+			padding-top: 180px;
+		}
+			.desc {
+				padding: 0 $pad $pad;
+			}
 }

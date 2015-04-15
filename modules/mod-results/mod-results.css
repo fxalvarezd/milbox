@@ -1,15 +1,18 @@
 /*#4DB6AC/#64DD17/#34ab00*/
 .mod-results .list-group-item {
-  line-height: 48px;
-  overflow: hidden;
+  height: auto;
 }
-.mod-results .label {
-  color: #000;
-  display: block;
-  text-align: left;
+.mod-results .result-label {
+  line-height: 24px;
+}
+.mod-results .glyphicon {
+  font-size: 12px;
+  line-height: 24px;
 }
 .mod-results mark {
   font-size: 26px;
-  margin: 0 auto;
+  line-height: 48px;
+  display: block;
   padding: 0 15px;
+  text-align: center;
 }

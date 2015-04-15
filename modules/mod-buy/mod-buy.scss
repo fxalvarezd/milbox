@@ -1,0 +1,20 @@
+@import '../../css/base';
+
+.mod-buy {
+
+	.form {
+		@include mb;
+	}
+		.img-responsive {
+			margin-right: $space;
+		}
+		.total-text {
+			line-height: 34px;
+		}
+		.btn-primary {
+			margin-left: $space;
+		}
+		.copy {
+			@include smallfont;
+		}
+}
