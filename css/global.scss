@@ -103,7 +103,6 @@ a {
 	@include boxshadow(5px, 5px, 10px, $darkgray);
 	@include transition(all 0.2s ease);
 	background: $darkgray;
-	cursor: pointer;
 
 	&:hover {
 		@include boxshadow(10px, 10px, 20px, $darkgray);

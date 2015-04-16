@@ -11,6 +11,6 @@
 			padding-top: 180px;
 		}
 			.desc {
-				@include mb;
+				padding: 0 $pad $pad;
 			}
 }
