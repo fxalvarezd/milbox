@@ -92,12 +92,11 @@
   cursor: default;
   opacity: 1;
 }
-.mod-header .nav-link {
+.mod-header .base-link, .mod-header .nav-link, .mod-header .account-link {
   -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   transition: all 0.2s linear;
-  border-bottom: 4px solid transparent;
   color: #fff;
   display: block;
   font-size: 16px;
@@ -105,19 +104,32 @@
   letter-spacing: 2px;
   line-height: 30px;
   margin-left: 30px;
-  opacity: 0.6;
   position: relative;
   text-transform: uppercase;
   /* Small */
   /*Medium*/
 }
 @media only screen and (max-width: 767px) {
-  .mod-header .nav-link {
+  .mod-header .base-link, .mod-header .nav-link, .mod-header .account-link {
     margin: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .mod-header .nav-link {
+  .mod-header .base-link, .mod-header .nav-link, .mod-header .account-link {
     margin: 0 30px 0 0;
   }
+}
+.mod-header .nav-link {
+  border-bottom: 4px solid transparent;
+  opacity: 0.6;
+}
+.mod-header .avatar {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid #ffca28;
+}
+.mod-header .avatar:hover {
+  border-color: yellow;
 }

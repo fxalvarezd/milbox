@@ -81,9 +81,8 @@
 				cursor: default;
 				opacity: 1;
 			}
-				.nav-link{
+				.base-link {
 					@include transition(all 0.2s linear);
-					border-bottom: 4px solid transparent;
 					color: #fff;
 					display: block;
 					font-size: 16px;
@@ -91,7 +90,6 @@
 					letter-spacing: 2px;
 					line-height: 30px;
 					margin-left: 30px;
-					opacity: 0.6;
 					position: relative;
 					text-transform: uppercase;
 
@@ -104,4 +102,20 @@
 						margin: 0 30px 0 0;
 					}
 				}
+				.nav-link{
+					@extend .base-link;
+					border-bottom: 4px solid transparent;
+					opacity: 0.6;
+				}
+					.account-link {
+						@extend .base-link;
+					}
+						.avatar {
+							@include borderradius(50%);
+							border: 2px solid $background;
+
+							&:hover {
+								border-color: $yellow;
+							}
+						}
 }
