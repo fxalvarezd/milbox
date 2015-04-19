@@ -2,19 +2,22 @@
 
 .mod-buy {
 
-	.form {
-		@include mb;
+	.form-wrap {
+		padding-bottom: 50px;
 	}
-		.img-responsive {
-			margin-right: $space;
+		.form {
+			@include mb;
 		}
-		.total-text {
-			line-height: 34px;
-		}
-		.btn-primary {
-			margin-left: $space;
-		}
-		.copy {
-			@include smallfont;
-		}
+			.img-responsive {
+				margin-right: $space;
+			}
+			.total-text {
+				line-height: 34px;
+			}
+			.btn-primary {
+				margin-left: $space;
+			}
+			.copy {
+				font-size: $small;
+			}
 }

@@ -1,4 +1,7 @@
 /*#4DB6AC/#64DD17/#34ab00*/
+.mod-buy .form-wrap {
+  padding-bottom: 50px;
+}
 .mod-buy .form {
   margin-bottom: 20px;
 }
@@ -13,5 +16,4 @@
 }
 .mod-buy .copy {
   font-size: 12px;
-  line-height: 14px;
 }
