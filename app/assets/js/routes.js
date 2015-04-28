@@ -1,36 +1,27 @@
-angular.module('NoteWrangler').config(function($routeProvider){
+angular.module('fxMilbox').config(function($routeProvider){
 	$routeProvider
 		.when('/', {
-			redirectTo: 'notes'
+			templateUrl: "/views/templates/home.html",
+			controller: "IndexController"
 		})
 
-		.when('/notes', {
-			templateUrl: "assets/templates/notes/index.html",
-			controller: "NoteIndexController"
+		.when('/account', {
+			templateUrl: "/views/templates/account.html",
+			controller: "IndexController"
 		})
 
-		.when('/notes/new', {
-			templateUrl: "assets/templates/notes/new.html",
-			controller: "NoteCreateController"
+		.when('/buy', {
+			templateUrl: "/views/templates/buy.html",
+			controller: "IndexController"
 		})
 
-		.when('/notes/:id', {
-			templateUrl: "assets/templates/notes/show.html",
-			controller: "NoteShowController"
+		.when('/how', {
+			templateUrl: "/views/templates/how.html",
+			controller: "IndexController"
 		})
 
-		.when('/notes/:id/edit', {
-			templateUrl: "assets/templates/notes/edit.html",
-			controller: "NoteEditController"
-		})
-
-		.when('/users', {
-			templateUrl: "assets/templates/users/index.html",
-			controller: "UserIndexController"
-		})
-
-		.when('/users/:id', {
-			templateUrl: "assets/templates/users/show.html",
-			controller: "UserShowController"
+		.when('/results', {
+			templateUrl: "/views/templates/results.html",
+			controller: "IndexController"
 		})
 });

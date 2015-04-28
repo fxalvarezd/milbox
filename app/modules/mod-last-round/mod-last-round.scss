@@ -1,0 +1,23 @@
+@import '../../assets/css/base';
+
+.mod-last-round {
+	background: url(/assets/img/last.png) no-repeat center top $darkgray;
+
+	.main {
+		color: $yellow;
+		padding: 100px 30px 40px 0;
+		text-align: right;
+	}
+		.main-animate {
+			@include transition(all 0.2s ease);
+			float: right;
+		}
+			.big {
+				font-size: 32px;
+				line-height: 36px;
+			}
+
+	&:hover .main-animate {
+		@include transform(scale(1.8, 1.8) translate(-30px, -20px));
+	}
+}

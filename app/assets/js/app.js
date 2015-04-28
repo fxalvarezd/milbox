@@ -1,3 +1,3 @@
-angular.module('NoteWrangler', ['ngRoute', 'ngResource', 'ngGravatar']).config(function(GravatarProvider){
-	GravatarProvider.setSize(75);
+angular.module('fxMilbox', ['ngRoute', 'ngResource']).config(function(){
+
 });

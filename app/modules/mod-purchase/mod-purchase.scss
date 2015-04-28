@@ -1,0 +1,16 @@
+@import '../../assets/css/base';
+
+.mod-purchase {
+	background: url(/assets/img/tickets.png) no-repeat center top $darkgray;
+
+	.box {
+		color: inherit;
+		display: block;
+	}
+		.box-content {
+			padding-top: 180px;
+		}
+			.desc {
+				padding: 0 $pad $pad;
+			}
+}
