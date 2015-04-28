@@ -18,7 +18,7 @@
   font-size: 32px;
   line-height: 36px;
 }
-.mod-current-round:hover .main-animate {
+.mod-current-round:hover .main-animate, .mod-current-round:focus .main-animate, .mod-current-round:active .main-animate {
   -ms-transform: scale(1.8, 1.8) translate(-30px, -20px);
   -webkit-transform: scale(1.8, 1.8) translate(-30px, -20px);
   transform: scale(1.8, 1.8) translate(-30px, -20px);

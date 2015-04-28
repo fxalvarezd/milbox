@@ -1,4 +1,4 @@
-@import '../../assets/css/base';
+@import '../../base';
 
 .mod-last-round {
 	background: url(/assets/img/last.png) no-repeat center top $darkgray;
@@ -17,7 +17,9 @@
 				line-height: 36px;
 			}
 
-	&:hover .main-animate {
+	&:hover .main-animate,
+	&:focus .main-animate,
+	&:active .main-animate {
 		@include transform(scale(1.8, 1.8) translate(-30px, -20px));
 	}
 }

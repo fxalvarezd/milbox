@@ -46,6 +46,10 @@ a {
 		color: $cta-hover;
 		text-decoration: none;
 	}
+	&:visited,
+	&:focus {
+		text-decoration: none;
+	}
 }
 /*Utility Classes*/
 .clearfix {
