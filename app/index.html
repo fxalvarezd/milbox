@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" ng-app="fxMilbox">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Milbox</title>
+		<link rel="icon" href="/assets/img/favicon.ico" />
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/assets/css/reset.css" />
+		<link rel="stylesheet" href="/assets/css/global.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-header/mod-header.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-footer/mod-footer.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-purchase/mod-purchase.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-current-round/mod-current-round.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-last-round/mod-last-round.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-previous-rounds/mod-previous-rounds.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-how-works/mod-how-works.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-results/mod-results.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-account/mod-account.css" />
+		<link rel="stylesheet" href="/assets/css/modules/mod-buy/mod-buy.css" />
+		<script type="text/javascript" src="/assets/js/oneall-social-login.js"></script>
+	</head>
+
+	<body>
+		<fx-header></fx-header>
+
+		<div ng-view autoscroll="true"></div>
+
+		<fx-footer></fx-footer>
+
+		<!-- vendor -->
+		<script src="/assets/js/vendor/jquery-2.1.3.min.js"></script>
+		<script src="/assets/js/vendor/angular.min.js"></script>
+		<script src="/assets/js/vendor/angular-route.min.js"></script>
+		<script src="/assets/js/vendor/angular-resource.min.js"></script>
+		<script src="/assets/js/vendor/bootstrap.min.js"></script>
+
+		<!-- App -->
+		<script src="/assets/js/app.js"></script>
+		<script src="/assets/js/routes.js"></script>
+
+		<!-- Directives -->
+		<script src="/assets/js/directives/fxHeader.js"></script>
+		<script src="/assets/js/directives/fxFooter.js"></script>
+		<script src="/assets/js/directives/fxPurchase.js"></script>
+		<script src="/assets/js/directives/fxCurrentRound.js"></script>
+		<script src="/assets/js/directives/fxLastRound.js"></script>
+		<script src="/assets/js/directives/fxPreviousRounds.js"></script>
+
+		<!-- Controllers -->
+		<script src="/assets/js/controllers/indexController.js"></script>
+
+		<!-- Filters -->
+
+		<!-- Services -->
+	</body>
+</html>
